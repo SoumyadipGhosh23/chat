@@ -39,7 +39,7 @@ const Stories: React.FC = () => {
             <ScrollView style={styles.storiesPart} horizontal={true} showsVerticalScrollIndicator={false}>
                 <View style={styles.particularStory}>
                     <Icons name='plus' color='#F89D7C' size={50} />
-                    <Text style={{ marginTop: 8, fontWeight: 'bold' }}>Add Story</Text>
+                    <Text style={{ marginTop: 8, fontWeight: 'bold', color : 'black' }}>Add Story</Text>
                 </View>
 
                 {cards.map((ele, index) => (
@@ -59,10 +59,12 @@ const Stories: React.FC = () => {
 
 const styles = StyleSheet.create({
     container: {
-        padding: 15,
+        paddingTop: 15,
+        paddingHorizontal : 15,
     },
     title: {
         fontSize: 25,
+        color : 'black',
         fontWeight: 'bold'
     },
     storiesPart: {
@@ -98,6 +100,7 @@ const styles = StyleSheet.create({
     textTruncate: {
         marginVertical: 5,
         fontWeight: 'bold',
+        color : 'black',
         width: 70,
     },
 });

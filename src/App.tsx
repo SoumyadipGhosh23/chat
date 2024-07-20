@@ -6,7 +6,7 @@ import Chat from './components/Chat';
 
 function App(): React.JSX.Element {
     return (
-        <SafeAreaView style={{ flex: 1 }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor : 'white' }}>
             <Header />
             <Stories />
             <Chat />

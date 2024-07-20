@@ -58,8 +58,8 @@ const Chat = () => {
         <View style={styles.container}>
             <Text style={styles.title}>Chat</Text>
             <View style={styles.section}>
-                <View style={[styles.subSection, { backgroundColor: "#ffffff", }]}><Text style={{ fontSize: 15 }}>Private</Text></View>
-                <View style={styles.subSection}><Text style={{ fontSize: 15 }}>Group</Text></View>
+                <View style={[styles.subSection, { backgroundColor: "#ffffff", }]}><Text style={{ fontSize: 15, color :'black', fontWeight : 'bold' }}>Private</Text></View>
+                <View style={styles.subSection}><Text style={{ fontSize: 15, color : 'black' }}>Group</Text></View>
             </View>
 
             <ScrollView>
@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 25,
+        color : 'black',
         fontWeight: 'bold'
     },
     section: {
@@ -111,7 +112,7 @@ const styles = StyleSheet.create({
     },
     subSection: {
         marginHorizontal: 5,
-        paddingHorizontal: 60,
+        paddingHorizontal: 50,
         paddingVertical: 10,
         borderRadius: 50,
     },
@@ -132,6 +133,7 @@ const styles = StyleSheet.create({
     },
     name: {
         fontSize: 16,
+        color : 'black',
         fontWeight: 'bold',
     },
     message: {
