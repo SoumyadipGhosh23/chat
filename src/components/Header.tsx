@@ -6,7 +6,7 @@ const Header : React.FC = () => {
   return (
     <View style={styles.container}>
       <View>
-        <Text style={styles.title}>Let's Connect</Text>
+        <Text style={styles.title}>Sambad</Text>
       </View>
       <View style={styles.icons}>
         <View style={{ marginRight: 15 }}>
